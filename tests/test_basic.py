@@ -6,7 +6,7 @@ from textlib import reverse, count_vowels, is_palindrome, to_upper, concat
 # reverse
 # ----------------------------
 def test_reverse_happy_path():
-    assert reverse("hola") == "hola"
+    assert reverse("hola") == "aloh"
     assert reverse("12345") == "54321"
 
 def test_reverse_empty_string():
